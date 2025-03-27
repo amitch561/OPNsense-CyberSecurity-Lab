@@ -9,6 +9,7 @@ This lab is designed to simulate a complex network environment with different VL
 📁 Repository Structure
 
 SecurityLab/
+
 │
 ├── README.md               # This file, explaining the lab setup
 ├── /Diagrams               # Network diagrams and architecture visuals
