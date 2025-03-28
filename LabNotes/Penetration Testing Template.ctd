@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node unique_id="1" master_id="0" name="Penetration Testing Template" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="1" foreground="#1a5fb4" ts_creation="1743117338" ts_lastsave="1743119554">
+    <rich_text>Penetration Testing Template/
+├── Engagement Overview
+├── Information Gathering
+├── Exploitation
+├── Post-Exploitation
+├── Reporting
+├── Additional Notes
+└── Signature</rich_text>
+    <node unique_id="2" master_id="0" name="Engagement Overview" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743117485" ts_lastsave="1743118776">
+      <rich_text>
+</rich_text>
+      <rich_text scale="h3">Purpose:</rich_text>
+      <rich_text>
+Provide a high-level description of the engagement, including scope, objectives, and methodologies.
+
+
+</rich_text>
+      <rich_text weight="heavy">• Target Description:</rich_text>
+      <rich_text> [ IP addresses, systems, domains, network ranges]
+
+
+</rich_text>
+      <rich_text weight="heavy">• Scope</rich_text>
+      <rich_text>: 
+
+   ◇ In-Scope: [List All the systems, IP addresses, applications, services etc. that are allowed in this test]
+   
+   
+   ◇ Out-of-Scope: [List all the systems, IP addresses, applications, services, and network segments that must not be tested or interfered with]
+   
+
+• </rich_text>
+      <rich_text weight="heavy">Testing Type</rich_text>
+      <rich_text>:[ Explain the type of testing being performed:</rich_text>
+      <rich_text weight="heavy">Black Box, Grey Box, White Box</rich_text>
+      <rich_text>]
+
+• </rich_text>
+      <rich_text weight="heavy">Duration</rich_text>
+      <rich_text>: [Clearly state the start and end dates of the engagement.]
+
+• </rich_text>
+      <rich_text weight="heavy">Tools Used</rich_text>
+      <rich_text>: [Provide a list of all tools used during the assessment]
+ 
+• </rich_text>
+      <rich_text weight="heavy">Authorization</rich_text>
+      <rich_text>:</rich_text>
+    </node>
+    <node unique_id="3" master_id="0" name="Information Gathering" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743117506" ts_lastsave="1743119310">
+      <rich_text>
+</rich_text>
+      <rich_text scale="h3">Purpose:</rich_text>
+      <rich_text>
+Provide a high-level description of the engagement, including scope, objectives, and methodologies.
+
+
+• </rich_text>
+      <rich_text weight="heavy">Passive Reconnaissance:</rich_text>
+      <rich_text> [Gathering information without interacting directly with the target (e.g., WHOIS lookups, DNS records, Google dorking)]
+
+• </rich_text>
+      <rich_text weight="heavy">Active Reconnaissance:</rich_text>
+      <rich_text> [Directly interacting with the target to gather information (e.g., Nmap scans, OS fingerprinting, service detection).]
+
+• </rich_text>
+      <rich_text weight="heavy">Network Mapping:</rich_text>
+      <rich_text> [Documenting network topology, subnets, devices, services, and their relationships.]
+
+• </rich_text>
+      <rich_text weight="heavy">Open Ports &amp; Services:</rich_text>
+      <rich_text> [Detailed results of port scanning and service enumeration.]
+
+• </rich_text>
+      <rich_text weight="heavy">Vulnerabilities Identified (Initial):</rich_text>
+      <rich_text> [Preliminary list of potential attack vectors discovered during scanning.]
+
+
+
+
+
+</rich_text>
+      <node unique_id="9" master_id="0" name="Screenshots" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743119310" ts_lastsave="1743119431">
+        <rich_text weight="heavy">Screenshots to Include:</rich_text>
+        <rich_text>
+   ◇ Nmap scan results.
+
+   ◇ WHOIS lookups.
+
+   ◇ Open Ports &amp; Services identification.
+
+   ◇ OS detection outputs.
+
+   ◇ Network topology diagrams (if applicable).
+
+
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="4" master_id="0" name="Exploitation" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743117524" ts_lastsave="1743119328">
+      <rich_text>
+</rich_text>
+      <rich_text scale="h3">Purpose:</rich_text>
+      <rich_text>
+Exploit identified vulnerabilities to gain access to systems.
+
+• </rich_text>
+      <rich_text weight="heavy">Exploits Used:</rich_text>
+      <rich_text> [Detailed description of the tools, scripts, or techniques used (e.g., Metasploit modules, custom scripts, manual exploitation).]
+
+• </rich_text>
+      <rich_text weight="heavy">Vulnerabilities Exploited:</rich_text>
+      <rich_text> [Clearly describe the vulnerabilities targeted, including CVE IDs, CWE IDs, or misconfigurations.]
+
+• </rich_text>
+      <rich_text weight="heavy">Proof of Concept:</rich_text>
+      <rich_text> [Provide screenshots, command outputs, files, or logs that demonstrate successful exploitation.]
+
+• </rich_text>
+      <rich_text weight="heavy">Privilege Escalation:</rich_text>
+      <rich_text> [Document steps taken to escalate privileges if applicable.]
+
+• </rich_text>
+      <rich_text weight="heavy">Mitigation Bypass:</rich_text>
+      <rich_text> [Describe techniques used to bypass firewalls, IDS/IPS, WAFs, etc.]
+
+
+</rich_text>
+      <node unique_id="10" master_id="0" name="Screenshots" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743119328" ts_lastsave="1743119440">
+        <rich_text weight="heavy">Screenshots to Include:</rich_text>
+        <rich_text>
+   ◇ Successful exploitation commands.
+
+   ◇ Proof of access (e.g., shell access, web shell interface, RCE).
+
+   ◇ Evidence of exploited vulnerabilities (e.g., Metasploit output, manual exploitation results).
+
+   ◇ Privilege escalation results.
+
+
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="5" master_id="0" name="Post-Exploitation" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743117541" ts_lastsave="1743119351">
+      <rich_text>
+</rich_text>
+      <rich_text scale="h3">Purpose:</rich_text>
+      <rich_text>
+Document actions taken after successful exploitation to maintain access and gather information.
+
+• </rich_text>
+      <rich_text weight="heavy">Maintaining Access:</rich_text>
+      <rich_text> [Techniques used to create backdoors, new user accounts, or persistence mechanisms.]
+
+• </rich_text>
+      <rich_text weight="heavy">Data Exfiltration:</rich_text>
+      <rich_text> [Evidence of data extraction or proof of capability to extract data.]
+
+• </rich_text>
+      <rich_text weight="heavy">Lateral Movement:</rich_text>
+      <rich_text> [Document methods used to move between systems within the network.]
+
+• </rich_text>
+      <rich_text weight="heavy">Cleanup:</rich_text>
+      <rich_text> [Steps taken to remove logs, indicators of compromise, or artifacts left behind.]
+
+• </rich_text>
+      <rich_text weight="heavy">Impact Analysis:</rich_text>
+      <rich_text> [Assessment of potential damage or impact from the exploitation.]
+
+
+</rich_text>
+      <node unique_id="11" master_id="0" name="Screenshots" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743119351" ts_lastsave="1743119461">
+        <rich_text weight="heavy">Screenshots to Include:</rich_text>
+        <rich_text>
+   
+   ◇ Created backdoors or persistence mechanisms.
+
+   ◇ Exfiltrated data or files (evidence of data access).
+
+   ◇ Lateral movement techniques (if applicable).
+
+   ◇ Proof of cleanup (e.g., deleted logs, removed artifacts).
+
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="6" master_id="0" name="Reporting" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743117574" ts_lastsave="1743119373">
+      <rich_text>
+</rich_text>
+      <rich_text scale="h3">Purpose:</rich_text>
+      <rich_text>
+Provide a formal report detailing the findings, impact analysis, and remediation recommendations.
+
+• </rich_text>
+      <rich_text weight="heavy">Executive Summary:</rich_text>
+      <rich_text> [High-level overview of the assessment, suitable for non-technical stakeholders.]
+
+
+• </rich_text>
+      <rich_text weight="heavy">Technical Findings:</rich_text>
+      <rich_text> Detailed description of all vulnerabilities discovered, including:
+
+   ▪ </rich_text>
+      <rich_text weight="heavy">Vulnerability Name</rich_text>
+      <rich_text>
+
+   ▪ </rich_text>
+      <rich_text weight="heavy">Severity Level:</rich_text>
+      <rich_text> Critical, High, Medium, Low.
+
+   ▪ </rich_text>
+      <rich_text weight="heavy">Description:</rich_text>
+      <rich_text> Explanation of the vulnerability, including how it was found and why it is a problem.
+
+   ▪ </rich_text>
+      <rich_text weight="heavy">Evidence:</rich_text>
+      <rich_text> Proof of concept including screenshots, logs, or commands showing exploitation.
+
+   ▪ </rich_text>
+      <rich_text weight="heavy">Remediation Recommendations:</rich_text>
+      <rich_text> Clear steps to fix the issue and prevent future exploitation.
+
+   ▪ </rich_text>
+      <rich_text weight="heavy">References:</rich_text>
+      <rich_text> CVE IDs, CWE IDs, or links to further reading and best practices.
+
+
+
+• </rich_text>
+      <rich_text weight="heavy">Impact Analysis:</rich_text>
+      <rich_text> [Explanation of the potential damage if the vulnerabilities were exploited.]
+
+• </rich_text>
+      <rich_text weight="heavy">Conclusion:</rich_text>
+      <rich_text> [Summary of the overall assessment and key takeaways.]
+
+
+</rich_text>
+      <node unique_id="12" master_id="0" name="Screenshots" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743119373" ts_lastsave="1743119453">
+        <rich_text weight="heavy">Screenshots to Include:</rich_text>
+        <rich_text>
+   ◇ Vulnerability evidence with corresponding severity ratings.
+
+   ◇ Proof of concept images (e.g., login screens bypassed, unauthorized access interfaces).
+
+   ◇ Visual representation of impact or compromised data.
+
+   ◇ Remediation testing results (if applicable).
+
+
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="7" master_id="0" name="Additional Notes" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1743117586" ts_lastsave="1743119009">
+      <rich_text>
+</rich_text>
+      <rich_text scale="h3">Purpose:</rich_text>
+      <rich_text>
+Record any additional observations or findings that do not fit into the structured sections above.
+
+Observations/Findings:</rich_text>
+    </node>
+  </node>
+  <node unique_id="8" master_id="0" name="Signature" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="#26a269" ts_creation="1743119098" ts_lastsave="1743119112">
+    <rich_text>Tester Name: 
+Date: [Date of Completion]
+Signature:</rich_text>
+  </node>
+</cherrytree>
